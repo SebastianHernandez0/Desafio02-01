@@ -1,0 +1,37 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+
+.lateral{
+    flex-basis: 15%;
+}
+
+.principal{
+    flex-basis: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal img{
+    width: 20em;
+    padding: 2em;
+}
+.principal .texto{
+    text-align: center;
+    font-family: Roboto;
+    
+}
+.principal h1{
+    font-weight: 500;
+    font-size: 48px;
+    color: #1b1f21;
+}
