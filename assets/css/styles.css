@@ -13,14 +13,57 @@
     flex-basis: 20%;
     border-right: 1px solid gray;
 }
+
+h4,p{
+    font-family: Roboto;
+    padding: 3px;
+}
+
+.lateral ul{
+    display: flex;
+    flex-direction: column;
+}
+.lateral img{
+    width: 55px;
+    height: 55px;
+    border-radius: 40px;
+}
+
  .lateral ul li{
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 6em;
     border-bottom: 1px solid #bec1bb; 
  }
 
  .lateral .item-2{
     height: 10em;
+ }
+ 
+.lateral .subitem-1{
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+    padding-left: 10px;
+    
+}
+.lateral .subitem-1 .maria,.icons{
+    color: #bec1bb;
+}
+
+ .lateral .item-2 button{
+    width: 60%;
+    height: 3em;
+    background-color: #a491d2;
+    color: white;
+    border: none;
+    font-size: 20px;
+ }
+ .lateral .icons i{
+    padding-left: 15px;
+    
  }
 
 .principal{
